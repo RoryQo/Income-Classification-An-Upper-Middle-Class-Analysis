@@ -1,4 +1,4 @@
-# R-Salary-Analysis
+# R-Classifying-UpperMiddle-Class
 
 #### Results and Methodology
 Our models predict whether a person makes over or under 50K a year.  In 1994 this corresponds to the upper middle class threshold.  
