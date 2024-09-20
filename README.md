@@ -5,7 +5,7 @@ Our models predict whether a person makes over or under 50K a year.  In 1994 thi
 
 As this is a binary predictor, we begin by fitting logistic regression models.  The lambda min model is slightly more accurate than that our "optimal" lambda model we found using 5-fold cross-validation.  This model has a misclassification rate of 16.3% (83.7% accuracy).  While this is acceptable, we will attempt an alternate method of prediction, a decision tree.  After fitting the decision tree accuracy improved by approximately 1% compared to the logistic regression model.  
 
-Our decision tree utilizes marital status, education, and capital gains as key nodes.  There are a lot more observations that are less than 50k, there is a concern for differences in recall and precision.  
+Our decision tree utilizes marital status, education, and capital gains as key nodes.  There are significantly more observations that are less than 50k, there is a concern for differences in recall and precision.  However, after calculating these rates there is no significant bias in the model.  
 
 
 #### Data
