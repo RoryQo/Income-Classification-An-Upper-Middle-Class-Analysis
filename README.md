@@ -1,7 +1,9 @@
 # R-Salary-Analysis
 
 #### Results and Methodology
-Our models predict whether a person makes over or under 50K a year.  In 1994 this corresponds to upper middle class threshold.  As this is a binary predictor, we begin by fitting logistic regression models.  The lambda min model is slightly more accurate than that our "optimal" lambda model we found using 5 fold cross validation.  This model has a misclassification rate of 16.3% (83.7% accuracy).  While this is acceptable, we will attempt an alternate method of prediction, a decision tree.  After fitting the decision tree accuracy improved by approximately 1% compared to the logistic regression model.  
+Our models predict whether a person makes over or under 50K a year.  In 1994 this corresponds to the upper middle class threshold.  
+
+As this is a binary predictor, we begin by fitting logistic regression models.  The lambda min model is slightly more accurate than that our "optimal" lambda model we found using 5-fold cross-validation.  This model has a misclassification rate of 16.3% (83.7% accuracy).  While this is acceptable, we will attempt an alternate method of prediction, a decision tree.  After fitting the decision tree accuracy improved by approximately 1% compared to the logistic regression model.  
 
 
 
