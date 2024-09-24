@@ -1,4 +1,4 @@
-# R-Classifying-UpperMiddle-Class
+# Income Classification: Upper Middle Class Analysis
 
 #### Results and Methodology
 
