@@ -8,7 +8,7 @@ As this is a binary predictor, we begin by fitting logistic regression models.  
 
 The decision tree utilizes marital status, education, and capital gains as key nodes.  Since significantly more observations are less than 50k, there is a concern for deviations in recall and precision.  However, after calculating these rates there is no significant bias in the model.  
 
-
+ 
 #### Data
 The data set used in this part is extracted from the 1994 Census database.
 
