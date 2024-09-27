@@ -1,6 +1,6 @@
 # Income Classification: Upper Middle Class Analysis
 
-#### Results and Methodology
+#### Results and Methodology 
 
 These models predict whether a person makes over or under 50K (USD) a year.  In 1994 (US) this corresponds to the upper middle class threshold.  
 
