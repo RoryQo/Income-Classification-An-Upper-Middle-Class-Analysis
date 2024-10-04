@@ -10,8 +10,6 @@
   - [Decision Tree](#decision-tree)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Future Work](#future-work)
-- [Results](#results)
 
 ## Overview
 This project analyzes income classification based on a dataset from the 1994 U.S. Census to predict whether an individual earns over or under $50,000 annually, representing the upper middle class threshold.
