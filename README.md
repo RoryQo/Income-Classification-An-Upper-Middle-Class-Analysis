@@ -44,12 +44,15 @@ Initial data exploration was performed to summarize variables and visualize dist
 ### Logistic Regression
 1. Fit a logistic regression model using key predictors.
 2. Use 5-fold cross-validation to optimize lambda values.
-3. Evaluate misclassification rates.
+<img src="https://github.com/RoryQo/R-Income-Classification-An-Upper-Middle-Class-Analysis/raw/main/Graph1.jpg" alt="Income Classification Graph" style="width: 400px;" />
+4. Evaluate misclassification rates.
 
 ### Decision Tree
 1. Fit a decision tree model to the training data.
 2. Analyze decision nodes and visualize the tree structure.
-3. Calculate confusion matrix and assess performance metrics.
+<img src="https://github.com/RoryQo/R-Income-Classification-An-Upper-Middle-Class-Analysis/raw/main/graph2.jpg" alt="Income Classification Graph 2" style="width: 400px;" />
+
+4. Calculate confusion matrix and assess performance metrics.
 
 ## Installation
 To run this project, ensure you have the following R packages installed:
