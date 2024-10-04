@@ -53,6 +53,20 @@ Initial data exploration was performed to summarize variables and visualize dist
 <img src="https://github.com/RoryQo/R-Income-Classification-An-Upper-Middle-Class-Analysis/raw/main/graph2.jpg" alt="Income Classification Graph 2" style="width: 400px;" />
 
 4. Calculate confusion matrix and assess performance metrics.
+```
+# Create function to return misclass rate
+logistic.misclassrate <- function(dataset, y, fit, form){
+ misclass_lr <- dataset %>% 
+ mutate(pred.logistic = predict(fit, newx = model.matrix(form, data = dataset), 
+ type = "class")) %>% 
+ mutate(misclassify = ifelse(y != pred.logistic, 1,0)) %>%
+ summarize(misclass.rate = mean(misclassify))
+return(misclass_lr$misclass.rate)
+}
+
+
+logistic.misclassrate(test6,test6$salary,fit2,form_full)
+```
 
 ## Installation
 To run this project, ensure you have the following R packages installed:
