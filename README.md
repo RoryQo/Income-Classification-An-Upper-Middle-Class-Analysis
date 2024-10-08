@@ -4,7 +4,7 @@
 ## Table of Contents 
 - [Overview](#overview)
 - [Data](#data)
-- [Methodology](#methodology)
+- [Methodology](#methodology) 
   - [Data Exploration](#data-exploration)
   - [Logistic Regression](#logistic-regression)
   - [Decision Tree](#decision-tree)
