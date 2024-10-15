@@ -2,7 +2,7 @@
   
  
 ## Table of Contents 
-- [Overview](#overview) 
+- [Overview](#overview)  
 - [Data](#data) 
 - [Methodology](#methodology) 
   - [Data Exploration](#data-exploration)
