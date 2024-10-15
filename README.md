@@ -1,4 +1,4 @@
-<h1 align="center">Income Classification: Upper Middle Class Analysis</h1>   
+<h1 align="center">Income Classification: Upper Middle Class Analysis</h1>    
   
  
 ## Table of Contents 
