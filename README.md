@@ -3,7 +3,7 @@
     
 ## Table of Contents 
 - [Overview](#overview)   
-- [Data](#data)  
+- [Data](#data)   
 - [Methodology](#methodology) 
   - [Data Exploration](#data-exploration) 
   - [Logistic Regression](#logistic-regression)
