@@ -5,7 +5,7 @@
 - [Overview](#overview)   
 - [Data](#data)   
 - [Methodology](#methodology) 
-  - [Data Exploration](#data-exploration) 
+  - [Data Exploration](#data-exploration)  
   - [Logistic Regression](#logistic-regression)
   - [Decision Tree](#decision-tree)
 - [Installation](#installation)
